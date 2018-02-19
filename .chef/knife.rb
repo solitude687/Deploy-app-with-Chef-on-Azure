@@ -7,3 +7,5 @@ validation_client_name   "partsunlimited-validator"
 validation_key           ::File.join(current_dir, "partsunlimited-validator.pem")
 chef_server_url          "https://chefskyberry01.eastus.cloudapp.azure.com/organizations/partsunlimited"
 cookbook_path            [::File.join(current_dir, "../cookbooks")]
+
+knife[:editor] = "notepad"
